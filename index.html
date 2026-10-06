@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nano Store | Tecnologia e iPhones em Joinville</title>
+<meta name="description" content="Nano Store em Joinville - SC: iPhones, acessórios e tecnologia com atendimento direto. Consulte a disponibilidade pelo WhatsApp e conheça a loja.">
+<meta name="theme-color" content="#675F58">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Nano Store">
+<meta property="og:title" content="Nano Store | Tecnologia e iPhones em Joinville">
+<meta property="og:description" content="iPhones, acessórios e tecnologia em Joinville - SC. Consulte a disponibilidade pelo WhatsApp.">
+<meta name="twitter:title" content="Nano Store | Tecnologia e iPhones em Joinville">
+<meta name="twitter:description" content="iPhones, acessórios e tecnologia em Joinville - SC. Consulte a disponibilidade pelo WhatsApp.">
+<link rel="canonical" href="https://SEU-DOMINIO.com.br/">
+<meta property="og:url" content="https://SEU-DOMINIO.com.br/">
+<meta property="og:image" content="https://SEU-DOMINIO.com.br/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo da Nano Store">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/shelf-900.webp" imagesrcset="assets/shelf-560.webp 560w, assets/shelf-900.webp 900w" imagesizes="(min-width:900px) 440px, 80vw" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/sora-latin-300-normal.woff2" crossorigin>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Nano Store","description":"Loja de iPhones, acessórios e tecnologia em Joinville - SC.","address":{"@type":"PostalAddress","streetAddress":"Alameda Rolf Colin, 138","addressLocality":"Joinville","addressRegion":"SC","postalCode":"89204-070","addressCountry":"BR"},"hasMap":"https://www.google.com/maps/search/?api=1&query=Nano%20Store%20Alameda%20Rolf%20Colin%2C%20138%20Am%C3%A9rica%20Joinville%20SC","sameAs":["https://www.instagram.com/nano.store.jlle/"],"url":"https://SEU-DOMINIO.com.br/","image":"https://SEU-DOMINIO.com.br/assets/og-image.jpg"}</script>
+<style>
+@font-face{font-family:"Sora";font-style:normal;font-weight:300;font-display:swap;src:url(assets/fonts/sora-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:"Sora";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/sora-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Sora";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/sora-latin-600-normal.woff2) format("woff2")}
+
+:root{
+  /* Paleta extraída do logo oficial (fundo da marca ≈ #675F58) */
+  --nano-warm:#675F58;      /* fundo da marca */
+  --nano-dark:#3E3833;      /* marrom profundo */
+  --nano-ink:#1F1B18;       /* preto suave */
+  --nano-light:#EDE8E2;     /* areia clara */
+  --nano-sand:#D9D1C8;      /* linhas e bordas em fundo claro */
+  --white:#fff;
+  --accent:#D9A878;         /* única cor de destaque, tom de madeira da loja */
+  --text-on-dark:rgba(255,255,255,.84);
+  --text-on-light:#5E5750;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --font:"Sora",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --tile:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 127 126%22%3E%3Cpath transform=%22translate(21.0 32.5)%22 fill-rule=%22evenodd%22 d=%22M25.12,57.63C23.21,57.33 22.55,57.11 21.05,56.29C19.27,55.32 17.42,53.37 16.69,51.69C16.51,51.27 16.18,50.57 15.96,50.12L15.56,49.31L15.53,34.19C15.50,19.58 15.51,19.05 15.73,18.68L15.97,18.30L18.66,18.31C21.60,18.33 21.70,18.35 21.81,19.04C21.84,19.26 21.89,25.46 21.92,32.81C21.96,44.42 22.00,46.29 22.17,46.94C22.93,49.88 22.91,49.84 24.28,50.53C25.82,51.31 25.18,51.29 47.06,51.33C71.30,51.37 71.33,51.37 73.51,50.33C74.38,49.91 74.50,49.80 75.06,48.97C75.65,48.07 75.66,48.05 75.75,46.75C75.81,46.03 75.86,39.48 75.87,32.19C75.88,20.88 75.91,18.90 76.07,18.66C76.24,18.41 76.34,18.39 77.59,18.40C78.33,18.40 79.47,18.37 80.13,18.32C82.03,18.17 81.82,16.13 81.77,34.17L81.73,49.56L81.38,50.64C80.91,52.06 79.99,53.37 78.50,54.74C76.96,56.15 75.91,56.84 75.16,56.94C74.83,56.98 74.17,57.15 73.69,57.31C72.03,57.88 72.22,57.87 48.88,57.86C27.99,57.85 26.47,57.84 25.12,57.63ZM4.10,42.57C3.96,42.50 3.73,42.29 3.59,42.11C3.36,41.80 3.35,41.57 3.38,37.61C3.40,35.32 3.41,33.24 3.41,33.00C3.40,32.76 3.46,27.61 3.53,21.57L3.66,10.57L4.01,9.79C5.01,7.57 8.11,4.73 10.38,3.97C10.95,3.77 12.65,3.45 13.88,3.30C14.25,3.26 24.66,3.23 37.00,3.24L59.44,3.26L61.31,3.77C63.84,4.45 64.58,4.87 66.49,6.70C67.72,7.89 68.02,8.24 68.13,8.67C68.21,8.95 68.44,9.45 68.65,9.78C68.85,10.10 69.05,10.61 69.08,10.90C69.11,11.20 69.26,11.89 69.41,12.44L69.69,13.44L69.64,27.62C69.60,43.32 69.66,42.22 68.78,42.59C68.42,42.74 67.91,42.76 66.32,42.73C64.12,42.67 63.60,42.53 63.37,41.93C63.30,41.74 63.25,37.20 63.24,30.53C63.23,12.91 63.17,12.25 61.34,10.83C61.00,10.56 60.46,10.23 60.14,10.08L59.56,9.81L38.44,9.77C18.33,9.73 15.33,9.76 12.78,10.08C12.38,10.12 12.08,10.28 11.63,10.66C11.29,10.95 10.87,11.29 10.70,11.41C10.33,11.67 9.89,12.47 9.55,13.50C9.34,14.14 9.32,15.06 9.29,27.94C9.27,35.50 9.22,41.81 9.18,41.97C9.06,42.53 8.49,42.68 6.34,42.69C5.15,42.70 4.26,42.65 4.10,42.57Z%22/%3E%3C/svg%3E");
+  --tw:84px;--th:83px;
+  color-scheme:light;
+}
+@media(min-width:900px){:root{--tw:127px;--th:126px}}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--nano-warm);color:var(--white);font-family:var(--font);font-weight:300;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;-webkit-tap-highlight-color:transparent}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,p,figure{margin:0}
+h1,h2{text-wrap:balance}
+section{scroll-margin-top:68px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:#fff;color:#000;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+.wrap{width:min(1240px,100% - 40px);margin-inline:auto}
+@media(min-width:1280px){.wrap{width:min(1320px,100% - 96px)}}
+@media(min-width:1700px){.wrap{width:min(1560px,100% - 160px)}}
+.eyebrow{font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;font-weight:400;color:var(--text-on-dark)}
+.on-light{color:var(--nano-ink)}
+.on-light .eyebrow{color:var(--text-on-light)}
+
+/* ---------- Padronagem (derivada do arquivo oficial) ---------- */
+.pat-wrap{position:absolute;inset:0;pointer-events:none;clip-path:inset(0 100% 0 0);transition:clip-path 1.9s var(--ease)}
+.pat-wrap.in{clip-path:inset(0 0 0 0)}
+.pat{position:absolute;inset:0;background:currentColor;-webkit-mask:var(--tile) var(--dx,0px) 0/var(--tw) var(--th);mask:var(--tile) var(--dx,0px) 0/var(--tw) var(--th)}
+.giant{position:absolute;color:#fff;opacity:.07;pointer-events:none;will-change:transform}
+.giant svg,svg.giant{width:100%;height:auto}
+
+/* ---------- Botões ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 26px;border-radius:14px;font:inherit;font-weight:400;font-size:.95rem;letter-spacing:.01em;border:1.5px solid transparent;cursor:pointer;position:relative;overflow:hidden;transition:transform .4s var(--ease),background .3s,color .3s,border-color .3s}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-w{background:var(--white);color:var(--nano-ink)}
+.btn-w:hover{background:var(--nano-light);transform:translateY(-2px)}
+.btn-o{border-color:rgba(255,255,255,.55);color:var(--white)}
+.btn-o:hover{border-color:var(--white);background:rgba(255,255,255,.08);transform:translateY(-2px)}
+.btn-k{background:var(--nano-ink);color:var(--white)}
+.btn-k:hover{background:var(--nano-dark);transform:translateY(-2px)}
+.btn-l{border-color:rgba(31,27,24,.4);color:var(--nano-ink)}
+.btn-l:hover{border-color:var(--nano-ink);transform:translateY(-2px)}
+.btn:active{transform:scale(.98)}
+.ctas{display:flex;flex-direction:column;gap:12px}
+@media(min-width:560px){.ctas{flex-direction:row}}
+
+/* ---------- Header ---------- */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:60;padding-top:env(safe-area-inset-top,0px);transition:background .45s,box-shadow .45s}
+.hdr.solid{background:rgba(62,56,51,.92);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:block;width:62px;color:#fff}
+.nav{display:none;gap:34px;font-size:.84rem;letter-spacing:.04em}
+.nav a{opacity:.82;transition:opacity .25s}
+.nav a:hover{opacity:1}
+.hdr .btn{display:none;min-height:42px;padding:0 18px;font-size:.84rem}
+.menu-btn{border:0;background:none;color:#fff;font:inherit;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;font-weight:400;padding:12px 0 12px 12px;cursor:pointer;display:inline-flex;gap:10px;align-items:center}
+.menu-btn i{display:block;width:22px;height:8px;border-top:1.5px solid #fff;border-bottom:1.5px solid #fff;transition:transform .35s var(--ease)}
+.menu-btn[aria-expanded=true] i{transform:scaleY(.2)}
+.menu{position:fixed;inset:0;z-index:55;background:var(--nano-dark);padding:calc(96px + env(safe-area-inset-top,0px)) 28px 36px;display:flex;flex-direction:column;opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s;overflow:hidden}
+.menu.open{opacity:1;visibility:visible}
+.menu a.l{font-size:2rem;font-weight:300;letter-spacing:-.02em;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);opacity:0;transform:translateY(18px);transition:opacity .55s var(--ease),transform .55s var(--ease)}
+.menu.open a.l{opacity:1;transform:none}
+.menu.open a.l:nth-of-type(2){transition-delay:.06s}.menu.open a.l:nth-of-type(3){transition-delay:.12s}.menu.open a.l:nth-of-type(4){transition-delay:.18s}.menu.open a.l:nth-of-type(5){transition-delay:.24s}
+.menu .btn{margin-top:auto}
+@media(min-width:960px){.nav{display:flex}.hdr .btn{display:inline-flex}.menu-btn,.menu{display:none}}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;padding:110px 0 70px;overflow:hidden;background:var(--nano-warm)}
+.hero-pat{position:absolute;inset:0 0 auto auto;width:min(100%,760px);height:62%;color:#fff;opacity:.11;-webkit-mask-image:radial-gradient(ellipse at 100% 0,#000 20%,transparent 72%);mask-image:radial-gradient(ellipse at 100% 0,#000 20%,transparent 72%)}
+.g-h1{width:min(125vw,960px);left:-38%;bottom:-24%}
+.hero-grid{position:relative;display:grid;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,10.4vw,6.2rem);line-height:1.02;letter-spacing:-.04em;font-weight:300;margin:22px 0 24px}
+.hero h1 b{font-weight:600}
+.hero .lead{font-size:clamp(1.02rem,3.4vw,1.28rem);color:var(--text-on-dark);max-width:30ch;margin-bottom:34px}
+.hero-fig{position:relative;justify-self:end;width:min(80%,420px);margin-right:4px}
+.frame{position:relative;border-radius:34px 34px 6px 34px;overflow:visible}
+.frame::after{content:"";position:absolute;inset:16px -16px -16px 16px;border:1.5px solid rgba(255,255,255,.5);border-radius:34px 34px 6px 34px;z-index:-1}
+.frame img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:inherit;transition:transform 1.4s var(--ease)}
+.frame-in{overflow:hidden;border-radius:34px 34px 6px 34px}
+.frame:hover img{transform:scale(1.03)}
+.hero-fig figcaption{margin-top:34px;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--text-on-dark)}
+.hero-copy>*{opacity:0;transform:translateY(22px);animation:up 1s var(--ease) forwards}
+.hero-copy>:nth-child(2){animation-delay:.08s}.hero-copy>:nth-child(3){animation-delay:.18s}.hero-copy>:nth-child(4){animation-delay:.3s}
+.hero-fig{opacity:0;animation:up 1.3s .25s var(--ease) forwards}
+@keyframes up{to{opacity:1;transform:none}}
+@media(min-width:900px){
+  .hero-grid{grid-template-columns:1.25fr .75fr;gap:40px}
+  .hero-fig{width:min(100%,440px);margin-right:20px}
+  .g-h1{width:760px;left:-8%;bottom:-34%}
+}
+@media(min-width:1280px){.hero h1{font-size:clamp(5rem,6.2vw,7.6rem)}.hero-fig{width:min(100%,500px)}.hero .lead{font-size:1.4rem}}
+@media(min-width:1700px){.hero h1{font-size:8.2rem}.hero-fig{width:min(100%,580px)}.g-h1{width:1000px}}
+
+/* ---------- Faixa de padronagem ---------- */
+.band{position:relative;background:var(--nano-dark);color:#fff;height:clamp(150px,34vw,300px);overflow:hidden;display:grid;place-items:center;text-align:center}
+.band .pat-wrap{opacity:.2}
+.band p{position:relative;font-size:clamp(1.1rem,3.6vw,1.9rem);font-weight:300;letter-spacing:-.01em;padding:14px 26px;background:var(--nano-dark);border-radius:14px}
+.band p b{font-weight:600}
+
+/* ---------- Produtos ---------- */
+.prod{background:var(--nano-light);color:var(--nano-ink);padding:clamp(80px,12vw,150px) 0}
+.sec-head{display:grid;gap:18px;margin-bottom:clamp(36px,6vw,64px)}
+h2{font-size:clamp(2.1rem,7vw,4.6rem);line-height:1.04;letter-spacing:-.04em;font-weight:300}
+h2 b{font-weight:600}
+.sec-head p{color:var(--text-on-light);max-width:38ch}
+.cats{display:grid;gap:14px}
+.cat{position:relative;overflow:hidden;border-radius:30px 30px 6px 30px;background:var(--nano-warm);color:#fff;padding:26px;min-height:300px;display:flex;flex-direction:column;justify-content:flex-end;transition:transform .6s var(--ease)}
+.cat .pat-wrap{opacity:.2;-webkit-mask-image:linear-gradient(135deg,transparent 30%,#000);mask-image:linear-gradient(135deg,transparent 30%,#000)}
+.cat .giant{opacity:.13;width:78%;right:-18%;top:-6%}
+.cat-n{position:absolute;top:24px;left:26px;font-size:.72rem;letter-spacing:.22em;color:var(--text-on-dark)}
+.cat-img{position:absolute;inset:0}
+.cat-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.cat-img::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(31,27,24,.7),transparent 60%)}
+.cat h3{position:relative;font-size:clamp(1.7rem,5vw,2.5rem);font-weight:600;letter-spacing:-.03em;line-height:1.1}
+.cat p{position:relative;color:var(--text-on-dark);font-size:.92rem;max-width:30ch;margin:8px 0 18px}
+.cat .go{position:relative;display:inline-flex;gap:10px;align-items:center;font-size:.86rem;font-weight:400;letter-spacing:.02em;border-bottom:1px solid rgba(255,255,255,.5);padding-bottom:4px;align-self:flex-start;transition:gap .35s var(--ease),border-color .3s}
+.cat:hover .go{gap:16px;border-color:#fff}
+.cat:hover .cat-img img{transform:scale(1.04)}
+.cat-ph{position:absolute;top:24px;right:26px;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.5)}
+.prod-cta{margin-top:34px;display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.prod-cta span{color:var(--text-on-light);font-size:.9rem}
+@media(min-width:560px){.prod-cta{flex-direction:row;align-items:center;gap:22px}}
+@media(min-width:900px){
+  .cats{grid-template-columns:1.1fr .9fr;grid-template-rows:1fr 1fr}
+  .cat{min-height:300px}
+  .cat.big{grid-row:span 2;min-height:640px}
+  .cat.big h3{font-size:3.2rem}
+  .sec-head{grid-template-columns:1.2fr .8fr;align-items:end}
+}
+
+/* ---------- Campanha ---------- */
+.camp{position:relative;background:var(--nano-ink);color:#fff;overflow:hidden;padding:clamp(90px,13vw,170px) 0}
+.g-c1{width:min(130vw,980px);right:-44%;top:-6%;opacity:.08}
+.g-c2{width:min(90vw,520px);left:-30%;bottom:-8%;opacity:.05}
+.camp-grid{position:relative;display:grid;gap:44px}
+.camp h2{font-size:clamp(2.7rem,12.4vw,8.4rem);line-height:.98;letter-spacing:-.05em;position:relative;z-index:2}
+.camp h2 b{font-weight:600}
+.camp h2 em{font-style:normal;color:var(--accent);font-weight:600}
+.camp-copy{position:relative;z-index:2;max-width:34ch;color:var(--text-on-dark);font-size:.98rem;margin-top:26px}
+.camp-fig{position:relative;justify-self:end;width:min(88%,520px)}
+.camp-fig .frame-in{border-radius:6px 160px 6px 6px}
+.camp-fig img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.camp-fig figcaption{position:absolute;left:-14px;bottom:26px;transform:rotate(-90deg);transform-origin:0 100%;font-size:.64rem;letter-spacing:.24em;text-transform:uppercase;color:var(--text-on-dark);white-space:nowrap}
+@media(min-width:900px){
+  .camp-grid{grid-template-columns:1.2fr .8fr;gap:70px;align-items:center}
+  .camp h2{font-size:clamp(3.4rem,6.6vw,8rem)}
+  .camp-fig{width:min(100%,520px);justify-self:end}
+}
+
+/* ---------- A Nano ---------- */
+.about{background:var(--white);color:var(--nano-ink);padding:clamp(80px,12vw,150px) 0}
+.about-grid{display:grid;gap:44px}
+.about p.body{color:var(--text-on-light);font-size:1.04rem;max-width:44ch;margin:24px 0 34px}
+.pil{list-style:none;margin:0;padding:0;border-top:1px solid var(--nano-sand)}
+.pil li{display:grid;gap:4px;padding:20px 0;border-bottom:1px solid var(--nano-sand)}
+.pil b{font-weight:600;letter-spacing:-.01em}
+.pil span{color:var(--text-on-light);font-size:.92rem}
+.facts{display:flex;flex-wrap:wrap;gap:30px;margin-top:30px}
+.facts div{min-width:120px}.facts b{display:block;font-size:2.1rem;font-weight:300;letter-spacing:-.03em}.facts span{font-size:.8rem;color:var(--text-on-light)}
+.about-fig{position:relative;width:min(88%,480px);justify-self:start}
+.about-fig .frame-in{border-radius:6px 6px 6px 120px}
+.about-fig img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.about-fig::before{content:"";position:absolute;inset:-14px 14px 14px -14px;border:1.5px solid var(--nano-sand);border-radius:6px 6px 6px 120px;z-index:0}
+.about-fig .frame-in{position:relative;z-index:1}
+@media(min-width:900px){.about-grid{grid-template-columns:.85fr 1.15fr;gap:90px;align-items:center}.about-fig{justify-self:start;order:-1}}
+
+/* ---------- Instagram ---------- */
+.ig{position:relative;background:var(--nano-warm);color:#fff;padding:clamp(80px,12vw,150px) 0;overflow:hidden}
+.ig-grid{display:grid;gap:50px;align-items:center}
+.ig-handle{display:block;margin:18px 0 30px;font-size:clamp(1.5rem,6.4vw,3rem);font-weight:300;letter-spacing:-.03em;color:var(--accent)}
+.ig-tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;align-items:start}
+@media(min-width:1280px){.ig-tiles{gap:16px}}
+.tile{position:relative;aspect-ratio:4/5;border-radius:6px 22px 6px 22px;background:var(--nano-dark);overflow:hidden;display:grid;place-items:center;color:#fff}
+.tile:nth-child(2){margin-top:34px}.tile:nth-child(3){margin-top:12px}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.tile:hover img{transform:scale(1.05)}
+.ig-tiles .tile:nth-child(n+4){margin-top:0}
+@media(min-width:900px){.ig-grid{grid-template-columns:.9fr 1.1fr;gap:80px}}
+
+/* ---------- Localização ---------- */
+.loc{background:var(--nano-light);color:var(--nano-ink);padding:clamp(80px,12vw,140px) 0}
+.loc-grid{display:grid;gap:40px;align-items:stretch}
+.loc h2{margin:14px 0 6px}
+.loc .city{font-size:clamp(1.3rem,4.2vw,1.9rem);color:var(--text-on-light);font-weight:300;letter-spacing:-.02em}
+.addr{margin:28px 0 30px;font-size:1.05rem}
+.addr small{display:block;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-on-light);margin-bottom:6px}
+.ph{display:inline-block;padding:3px 12px;border:1px dashed rgba(31,27,24,.4);border-radius:8px;color:var(--text-on-light);font-size:.92rem}
+.loc-box{position:relative;border-radius:6px 6px 6px 90px;background:var(--nano-warm);color:#fff;min-height:300px;overflow:hidden;display:grid;place-items:center}
+.loc-box .pat-wrap{opacity:.12}
+.loc-box svg.sym{position:relative;width:40%;max-width:200px;opacity:.9}
+@media(min-width:900px){.loc-grid{grid-template-columns:.9fr 1.1fr;gap:70px}.loc-box{min-height:420px}}
+
+/* ---------- CTA final ---------- */
+.final{position:relative;background:var(--nano-warm);color:#fff;text-align:center;padding:clamp(110px,18vw,230px) 0;overflow:hidden}
+.final .pat-wrap{opacity:.17;-webkit-mask-image:radial-gradient(ellipse at 50% 50%,transparent 20%,#000 85%);mask-image:radial-gradient(ellipse at 50% 50%,transparent 20%,#000 85%)}
+.final .wrap{position:relative}
+.final h2{font-size:clamp(2.3rem,9vw,6rem);letter-spacing:-.045em;max-width:14ch;margin:20px auto 40px}
+.final .ctas{justify-content:center;align-items:center}
+.final .btn{width:min(100%,320px)}
+@media(min-width:560px){.final .btn{width:auto}}
+
+/* ---------- Footer ---------- */
+footer{position:relative;background:var(--nano-ink);color:var(--text-on-dark);padding:56px 0 calc(36px + env(safe-area-inset-bottom,0px));font-size:.86rem;overflow:hidden}
+footer .pat-wrap{opacity:.07;top:auto;height:var(--th);bottom:0;-webkit-mask-image:linear-gradient(0deg,#000,transparent);mask-image:linear-gradient(0deg,#000,transparent)}
+.foot{position:relative;display:grid;gap:30px}
+.foot .logo{width:80px}
+.foot nav{display:flex;flex-wrap:wrap;gap:8px 28px}
+.foot nav a{padding:8px 0;opacity:.85}.foot nav a:hover{opacity:1}
+.foot small{font-size:.8rem;opacity:.7}
+.foot-addr{grid-column:1/-1;font-style:normal;font-size:.82rem;opacity:.7}
+.credit{grid-column:1/-1;display:inline-flex;align-items:center;gap:12px;min-height:44px;font-size:.78rem;opacity:.65;transition:opacity .3s;justify-self:start;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);width:100%}
+.credit:hover{opacity:1}
+.credit img{height:22px;width:auto}
+.foot .where{max-width:34ch}
+@media(min-width:860px){.foot{grid-template-columns:auto 1fr auto;align-items:center;gap:60px}.foot nav{justify-content:center}}
+
+/* ---------- WhatsApp flutuante ---------- */
+.fab{position:fixed;z-index:58;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));display:inline-flex;gap:10px;align-items:center;height:54px;padding:0 20px 0 16px;border-radius:14px;background:var(--white);color:var(--nano-ink);font-weight:400;font-size:.9rem;box-shadow:0 12px 30px -10px rgba(0,0,0,.45);transform:translateY(90px);opacity:0;transition:transform .55s var(--ease),opacity .4s}
+.fab.show{transform:none;opacity:1}
+.fab svg{width:22px;height:22px}
+@media(min-width:960px){.fab{display:none}}
+
+/* ---------- Revelar ao rolar ---------- */
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .95s var(--ease),transform .95s var(--ease);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .hero-copy>*,.hero-fig{opacity:1!important;transform:none!important}
+  .js .rv{opacity:1;transform:none}
+  .pat-wrap{clip-path:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#produtos">Ir para o conteúdo</a>
+
+<!-- Símbolos vetoriais derivados dos arquivos oficiais (logo e padronagem) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="s-logo" viewBox="0 0 423 353"><path fill="currentColor" fill-rule="evenodd" d="M44.17,348.42C38.68,347.51 32.73,345.69 28.33,343.59C26.04,342.49 24.09,341.48 24.00,341.35C23.91,341.21 22.86,340.44 21.67,339.63C12.90,333.69 6.76,323.59 4.51,311.41C4.06,308.97 4.00,293.60 4.00,176.58L4.00,44.50L4.81,40.67C5.81,35.99 6.07,35.01 7.00,32.67C7.40,31.66 7.81,30.53 7.91,30.17C8.01,29.80 8.27,29.28 8.48,29.00C8.69,28.72 9.12,27.92 9.44,27.22C12.87,19.64 21.88,11.48 30.83,7.83C33.93,6.57 39.26,5.00 40.45,5.00C40.93,5.00 42.65,4.77 44.25,4.50C48.35,3.79 378.50,3.90 382.00,4.61C402.03,8.68 414.45,22.13 418.37,44.00C418.97,47.39 418.99,52.13 419.00,194.57C419.00,338.67 418.99,341.65 418.37,341.98C417.33,342.54 406.73,342.35 406.14,341.76C405.73,341.35 405.67,321.52 405.67,194.56C405.67,39.59 405.72,45.86 404.33,41.50C401.77,33.50 399.86,30.11 395.37,25.65C391.24,21.54 387.34,19.44 381.20,18.01C378.32,17.34 377.76,17.33 212.57,17.33C36.44,17.34 44.29,17.27 39.67,18.74C27.22,22.69 20.66,30.06 17.62,43.50C16.95,46.46 16.94,306.84 17.61,309.83C20.44,322.45 27.19,329.83 39.51,333.77C41.52,334.41 44.08,335.10 45.19,335.30C46.62,335.56 76.93,335.67 149.54,335.67C228.68,335.67 251.96,335.76 252.27,336.07C252.78,336.58 252.83,347.41 252.32,348.36C251.98,348.99 250.50,349.00 149.57,348.96C60.21,348.93 46.78,348.86 44.17,348.42ZM266.35,346.36C266.14,345.97 266.11,345.21 266.27,344.44L266.53,343.17L276.11,343.00C284.14,342.86 285.74,342.75 286.01,342.33C286.46,341.61 286.40,339.47 285.92,339.07C285.66,338.86 282.43,338.68 277.67,338.61C270.48,338.51 269.72,338.44 268.50,337.80C266.16,336.58 265.38,332.50 266.90,329.40C267.97,327.21 268.25,327.17 280.00,327.17L290.50,327.17L290.61,328.30C290.67,328.92 290.63,329.78 290.52,330.21L290.32,331.00L281.35,331.00C273.81,331.00 272.30,331.08 271.88,331.50C271.06,332.33 270.90,333.30 271.47,334.16L271.99,334.96L280.08,335.06C287.87,335.16 288.21,335.20 289.41,335.94C292.41,337.81 292.14,344.74 289.01,346.39C287.95,346.94 286.87,347.00 277.27,347.00C267.16,347.00 266.67,346.97 266.35,346.36ZM301.58,346.52C298.58,345.45 298.22,344.52 298.06,337.50C297.98,334.03 297.79,331.66 297.56,331.38C297.32,331.08 296.77,330.99 295.92,331.10C295.12,331.21 294.49,331.11 294.22,330.84C293.88,330.50 293.75,328.78 293.97,327.27C293.99,327.14 294.86,326.99 295.92,326.93L297.83,326.83L297.93,324.51C298.06,321.58 298.28,321.33 300.69,321.33C303.01,321.33 303.18,321.53 303.05,324.11C302.92,326.84 303.13,327.00 306.87,327.00C310.35,327.00 310.52,327.13 310.27,329.70L310.17,330.83L306.90,331.00C304.52,331.12 303.55,331.30 303.30,331.67C303.11,331.96 303.01,334.04 303.07,336.75C303.21,342.61 303.32,342.76 307.59,343.00L310.50,343.17L310.60,344.61C310.76,346.83 310.45,347.00 306.38,346.99C304.30,346.98 302.32,346.79 301.58,346.52ZM317.02,346.32C315.16,345.66 315.03,345.54 314.10,343.83C313.37,342.51 313.08,334.65 313.65,331.91C314.57,327.46 316.27,326.89 328.17,327.07C337.35,327.21 338.12,327.36 339.78,329.33C340.95,330.72 341.08,331.70 340.95,338.11L340.83,343.63L339.73,344.77C337.81,346.75 336.37,347.00 327.05,346.99C319.76,346.98 318.63,346.90 317.02,346.32ZM345.81,346.55C345.70,346.28 345.67,342.62 345.73,338.40L345.83,330.73L346.86,329.45C348.53,327.38 349.98,327.06 357.90,327.03C365.38,327.00 365.33,326.98 365.33,329.29C365.33,331.20 364.88,331.33 358.61,331.33C353.41,331.33 352.86,331.39 351.97,332.02L351.00,332.71L350.96,338.77C350.91,347.16 351.02,346.81 348.24,346.93C346.52,347.01 345.95,346.92 345.81,346.55ZM371.44,346.35C369.16,345.53 369.26,345.61 368.38,343.85C367.65,342.40 367.62,342.02 367.72,336.52L367.83,330.73L368.85,329.47C370.67,327.23 372.12,326.96 381.83,327.07C390.09,327.17 390.18,327.17 391.42,328.00C392.11,328.46 392.78,329.21 392.91,329.67C393.33,331.23 393.20,337.60 392.73,338.07C392.40,338.40 390.09,338.51 382.77,338.56C377.33,338.59 373.11,338.75 372.93,338.93C372.76,339.10 372.72,339.80 372.85,340.48C373.27,342.73 373.64,342.81 383.82,343.00L392.83,343.17L392.72,344.83C392.65,345.75 392.53,346.61 392.45,346.75C392.36,346.89 387.99,346.99 382.73,346.99C374.25,346.98 372.97,346.91 371.44,346.35ZM335.20,341.90C335.94,341.03 336.00,340.69 336.00,337.30C336.00,333.45 335.61,331.99 334.43,331.50C334.10,331.36 331.33,331.17 328.28,331.08C318.91,330.80 318.67,330.96 318.67,337.14C318.67,341.25 318.68,341.32 319.58,342.17L320.50,343.03L327.45,342.93L334.39,342.83L335.20,341.90ZM388.00,334.83C388.48,334.26 388.26,332.21 387.64,331.47C387.06,330.77 375.37,330.79 374.01,331.49C372.99,332.02 372.45,333.47 372.83,334.66C373.04,335.31 373.31,335.33 380.31,335.33C386.39,335.33 387.65,335.25 388.00,334.83ZM186.83,293.68L180.50,293.50L180.28,264.17C180.15,247.04 179.90,232.96 179.68,230.33C179.11,223.69 177.89,220.64 175.26,219.30C171.57,217.41 175.17,217.54 120.67,217.41C87.36,217.34 69.41,217.42 67.27,217.65C62.27,218.18 58.41,220.24 56.91,223.17C55.32,226.28 55.34,225.85 55.34,260.38C55.33,286.38 55.25,292.99 54.91,293.27C54.22,293.85 42.19,293.79 41.71,293.21C41.42,292.87 41.41,283.75 41.68,256.46C42.02,222.27 42.08,220.07 42.67,218.45C44.41,213.70 48.55,209.01 54.00,205.62C56.52,204.05 61.56,202.77 66.67,202.40C68.77,202.25 93.60,202.22 121.83,202.34C177.30,202.58 173.88,202.46 178.87,204.31C187.55,207.54 193.18,214.74 194.66,224.50C194.97,226.50 195.04,235.48 194.95,260.26C194.83,295.03 194.86,294.20 193.50,293.92C193.32,293.89 190.32,293.78 186.83,293.68ZM260.33,293.75C253.80,293.45 248.03,292.12 243.04,289.75C238.85,287.76 233.66,281.39 232.00,276.21C230.73,272.23 230.64,270.98 230.33,252.17C230.01,232.34 230.18,227.22 231.32,222.00C233.67,211.19 241.78,203.93 253.25,202.36C254.53,202.18 277.60,202.02 307.00,201.98C362.01,201.90 361.55,201.89 366.83,203.50C374.58,205.87 380.20,211.11 382.78,218.39C384.57,223.42 384.69,225.31 384.77,248.00C384.84,269.91 384.86,269.42 383.30,274.67C382.95,275.86 382.66,276.96 382.66,277.10C382.67,277.57 380.90,281.10 379.87,282.67C377.74,285.91 374.34,288.91 371.33,290.21C370.69,290.49 369.72,290.91 369.17,291.15C367.13,292.03 363.00,292.73 357.17,293.17C351.88,293.58 267.61,294.08 260.33,293.75ZM358.79,278.16C362.79,277.60 364.41,276.93 366.33,275.00C369.49,271.84 369.83,268.98 369.83,245.50C369.83,226.63 369.78,225.91 368.14,222.63C366.83,220.02 363.83,218.04 360.18,217.36C356.94,216.77 257.49,216.86 254.61,217.47C250.24,218.38 247.56,220.59 246.47,224.16C245.51,227.33 244.92,256.70 245.62,266.72C246.10,273.61 248.76,276.75 255.30,278.19C258.36,278.86 353.99,278.84 358.79,278.16ZM369.16,144.25C369.07,144.02 368.96,138.36 368.92,131.67L368.83,119.50L306.85,119.42C272.76,119.37 244.74,119.46 244.59,119.61C244.43,119.77 244.25,125.26 244.19,131.81C244.12,139.17 243.95,143.85 243.74,144.06C243.52,144.28 241.20,144.30 236.95,144.11L230.50,143.83L230.42,128.33C230.28,101.22 230.80,71.47 231.45,69.46C233.16,64.16 239.31,57.90 245.28,55.37C247.61,54.39 249.06,54.05 254.03,53.31C255.41,53.10 275.51,53.02 308.36,53.08C364.74,53.19 361.61,53.10 367.00,54.86C373.83,57.10 380.47,63.84 382.23,70.33C383.79,76.08 383.74,74.48 383.67,110.17C383.63,132.85 383.50,143.97 383.26,144.25C382.77,144.85 369.38,144.85 369.16,144.25ZM180.69,144.00C180.55,143.91 180.33,130.26 180.21,113.67C179.96,79.62 179.80,76.78 177.98,73.07C176.83,70.75 175.50,69.68 172.54,68.72C170.14,67.94 67.79,67.86 64.50,68.64C60.26,69.63 56.00,73.47 56.00,76.30C56.00,76.66 55.85,77.05 55.67,77.17C55.45,77.30 55.33,88.70 55.33,110.27C55.33,128.36 55.20,143.36 55.05,143.59C54.85,143.92 53.23,143.99 48.14,143.92L41.50,143.83L41.63,121.17C41.70,108.70 41.86,92.05 41.97,84.17L42.18,69.83L43.15,67.83C45.40,63.16 50.11,58.27 54.67,55.87C56.86,54.73 60.44,53.62 63.50,53.15C64.42,53.01 89.32,52.93 118.83,52.97C171.77,53.03 172.54,53.04 175.33,53.72C185.86,56.27 193.31,64.59 194.69,75.33C194.87,76.79 195.00,91.63 195.00,110.74C194.99,143.32 194.98,143.65 194.32,144.01C193.66,144.36 181.24,144.35 180.69,144.00ZM368.82,94.50C368.81,80.80 368.53,77.17 367.30,74.35C365.82,70.99 364.28,69.82 360.10,68.87C356.62,68.09 257.29,68.04 253.91,68.83C249.36,69.88 246.85,71.79 245.22,75.44L244.35,77.37L244.32,92.19C244.31,100.33 244.39,107.15 244.50,107.33C244.64,107.56 265.58,107.64 306.77,107.58L368.83,107.50L368.82,94.50Z"/></symbol>
+  <symbol id="s-sym" viewBox="0 0 85 61"><path fill="currentColor" fill-rule="evenodd" d="M25.12,57.63C23.21,57.33 22.55,57.11 21.05,56.29C19.27,55.32 17.42,53.37 16.69,51.69C16.51,51.27 16.18,50.57 15.96,50.12L15.56,49.31L15.53,34.19C15.50,19.58 15.51,19.05 15.73,18.68L15.97,18.30L18.66,18.31C21.60,18.33 21.70,18.35 21.81,19.04C21.84,19.26 21.89,25.46 21.92,32.81C21.96,44.42 22.00,46.29 22.17,46.94C22.93,49.88 22.91,49.84 24.28,50.53C25.82,51.31 25.18,51.29 47.06,51.33C71.30,51.37 71.33,51.37 73.51,50.33C74.38,49.91 74.50,49.80 75.06,48.97C75.65,48.07 75.66,48.05 75.75,46.75C75.81,46.03 75.86,39.48 75.87,32.19C75.88,20.88 75.91,18.90 76.07,18.66C76.24,18.41 76.34,18.39 77.59,18.40C78.33,18.40 79.47,18.37 80.13,18.32C82.03,18.17 81.82,16.13 81.77,34.17L81.73,49.56L81.38,50.64C80.91,52.06 79.99,53.37 78.50,54.74C76.96,56.15 75.91,56.84 75.16,56.94C74.83,56.98 74.17,57.15 73.69,57.31C72.03,57.88 72.22,57.87 48.88,57.86C27.99,57.85 26.47,57.84 25.12,57.63ZM4.10,42.57C3.96,42.50 3.73,42.29 3.59,42.11C3.36,41.80 3.35,41.57 3.38,37.61C3.40,35.32 3.41,33.24 3.41,33.00C3.40,32.76 3.46,27.61 3.53,21.57L3.66,10.57L4.01,9.79C5.01,7.57 8.11,4.73 10.38,3.97C10.95,3.77 12.65,3.45 13.88,3.30C14.25,3.26 24.66,3.23 37.00,3.24L59.44,3.26L61.31,3.77C63.84,4.45 64.58,4.87 66.49,6.70C67.72,7.89 68.02,8.24 68.13,8.67C68.21,8.95 68.44,9.45 68.65,9.78C68.85,10.10 69.05,10.61 69.08,10.90C69.11,11.20 69.26,11.89 69.41,12.44L69.69,13.44L69.64,27.62C69.60,43.32 69.66,42.22 68.78,42.59C68.42,42.74 67.91,42.76 66.32,42.73C64.12,42.67 63.60,42.53 63.37,41.93C63.30,41.74 63.25,37.20 63.24,30.53C63.23,12.91 63.17,12.25 61.34,10.83C61.00,10.56 60.46,10.23 60.14,10.08L59.56,9.81L38.44,9.77C18.33,9.73 15.33,9.76 12.78,10.08C12.38,10.12 12.08,10.28 11.63,10.66C11.29,10.95 10.87,11.29 10.70,11.41C10.33,11.67 9.89,12.47 9.55,13.50C9.34,14.14 9.32,15.06 9.29,27.94C9.27,35.50 9.22,41.81 9.18,41.97C9.06,42.53 8.49,42.68 6.34,42.69C5.15,42.70 4.26,42.65 4.10,42.57Z"/></symbol>
+</svg>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="logo" href="#inicio" aria-label="Nano Store — início"><svg viewBox="0 0 423 353" role="img" aria-label="Nano Store"><use href="#s-logo"/></svg></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#inicio">Início</a><a href="#produtos">Produtos</a><a href="#a-nano">A Nano</a><a href="#instagram">Instagram</a><a href="#contato">Contato</a>
+    </nav>
+    <a class="btn btn-w" data-wa href="https://wa.me/" target="_blank" rel="noopener">Falar no WhatsApp</a>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span>Menu</span><i></i></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <a class="l" href="#inicio">Início</a><a class="l" href="#produtos">Produtos</a><a class="l" href="#a-nano">A Nano</a><a class="l" href="#instagram">Instagram</a><a class="l" href="#contato">Contato</a>
+  <a class="btn btn-w" data-wa href="https://wa.me/" target="_blank" rel="noopener">Falar no WhatsApp</a>
+</div>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-pat" aria-hidden="true"><div class="pat-wrap" data-now><div class="pat"></div></div></div>
+    <svg class="giant g-h1" viewBox="0 0 85 61" aria-hidden="true" data-par="-0.05"><use href="#s-sym"/></svg>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow" data-t="heroEyebrow">Nano Store · Joinville — SC</p>
+        <h1 data-t="heroTitle">Seu próximo <b>upgrade</b> começa aqui.</h1>
+        <p class="lead" data-t="heroLead">iPhones, acessórios e tecnologia em Joinville.</p>
+        <div class="ctas">
+          <a class="btn btn-w" data-wa href="https://wa.me/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.8c.2 3 2.6 5.6 5.9 6.2l1.2-1.4-2.1-1-.9.7a4.6 4.6 0 0 1-2-2l.7-.9-1-2.1L9 8.8z"/></svg>Falar no WhatsApp</a>
+          <a class="btn btn-o" data-ig href="https://www.instagram.com/nano.store.jlle/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg>Instagram</a>
+        </div>
+      </div>
+      <figure class="hero-fig">
+        <div class="frame"><div class="frame-in"><img src="assets/shelf-900.webp" srcset="assets/shelf-560.webp 560w, assets/shelf-900.webp 900w" sizes="(min-width:900px) 440px, 80vw" width="900" height="1125" alt="Vitrine da loja Nano Store com iPhones, acessórios e capas coloridas em prateleiras de madeira clara" fetchpriority="high" decoding="async"></div></div>
+        <figcaption>iPhone · Acessórios · Tecnologia</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- FAIXA DE PADRONAGEM -->
+  <div class="band" role="presentation">
+    <div class="pat-wrap" data-rv-pat aria-hidden="true"><div class="pat" id="band-pat"></div></div>
+    <p data-t="bandText">Tecnologia que <b>combina</b> com você.</p>
+  </div>
+
+  <!-- PRODUTOS -->
+  <section class="prod" id="produtos">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <h2 data-t="prodTitle">Escolha <b>seu próximo.</b></h2>
+        <p data-t="prodLead">Três caminhos para começar. A disponibilidade de cada produto é confirmada direto com a equipe, pelo WhatsApp.</p>
+      </div>
+      <div class="cats">
+        <a class="cat big rv" data-cat="0" data-wa data-msg="Olá! Gostaria de consultar os iPhones disponíveis na Nano Store." href="https://wa.me/" target="_blank" rel="noopener" aria-label="Consultar iPhones no WhatsApp">
+          <div class="pat-wrap" data-rv-pat aria-hidden="true"><div class="pat"></div></div>
+          <svg class="giant" viewBox="0 0 85 61" aria-hidden="true"><use href="#s-sym"/></svg>
+          <span class="cat-n">01</span><span class="cat-ph" data-ph>Espaço para foto real</span>
+          <h3>iPhone</h3><p data-t="cat0">Consulte os modelos disponíveis e tire suas dúvidas com a equipe.</p>
+          <span class="go">Consultar no WhatsApp <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="cat rv" style="--d:.1s" data-cat="1" data-wa data-msg="Olá! Gostaria de consultar os acessórios disponíveis na Nano Store." href="https://wa.me/" target="_blank" rel="noopener" aria-label="Consultar acessórios no WhatsApp">
+          <div class="pat-wrap" data-rv-pat aria-hidden="true"><div class="pat"></div></div>
+          <svg class="giant" viewBox="0 0 85 61" aria-hidden="true"><use href="#s-sym"/></svg>
+          <span class="cat-n">02</span><span class="cat-ph" data-ph>Espaço para foto real</span>
+          <h3>Acessórios</h3><p data-t="cat1">Para acompanhar o seu iPhone. Pergunte pelo que você precisa.</p>
+          <span class="go">Consultar no WhatsApp <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="cat rv" style="--d:.2s" data-cat="2" data-wa data-msg="Olá! Gostaria de saber quais são os destaques da Nano Store." href="https://wa.me/" target="_blank" rel="noopener" aria-label="Consultar destaques no WhatsApp">
+          <div class="pat-wrap" data-rv-pat aria-hidden="true"><div class="pat"></div></div>
+          <svg class="giant" viewBox="0 0 85 61" aria-hidden="true"><use href="#s-sym"/></svg>
+          <span class="cat-n">03</span><span class="cat-ph" data-ph>Espaço para foto real</span>
+          <h3>Destaques</h3><p data-t="cat2">Novidades e produtos em evidência. Pergunte o que há de novo.</p>
+          <span class="go">Consultar no WhatsApp <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+      </div>
+      <div class="prod-cta rv">
+        <a class="btn btn-k" data-wa href="https://wa.me/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.8c.2 3 2.6 5.6 5.9 6.2l1.2-1.4-2.1-1-.9.7a4.6 4.6 0 0 1-2-2l.7-.9-1-2.1L9 8.8z"/></svg>Falar no WhatsApp</a>
+        <span>Resposta direta da equipe, sem formulário.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAMPANHA -->
+  <section class="camp" aria-labelledby="camp-h">
+    <svg class="giant g-c1" viewBox="0 0 85 61" aria-hidden="true" data-par="0.06"><use href="#s-sym"/></svg>
+    <svg class="giant g-c2" viewBox="0 0 85 61" aria-hidden="true" data-par="-0.04"><use href="#s-sym"/></svg>
+    <div class="wrap camp-grid">
+      <div class="camp-text rv">
+        <h2 id="camp-h" data-t="campTitle">Tecnologia que combina com <em>você.</em></h2>
+        <p class="camp-copy" data-t="campCopy">Um espaço pensado para conhecer, comparar e escolher com calma.</p>
+      </div>
+      <figure class="camp-fig rv" style="--d:.15s">
+        <div class="frame-in"><img src="assets/lounge-900.webp" srcset="assets/lounge-560.webp 560w, assets/lounge-900.webp 900w" sizes="(min-width:900px) 520px, 88vw" width="900" height="1125" alt="Recepção da Nano Store com sofá, poltronas e vitrine de madeira com produtos Apple" loading="lazy" decoding="async" data-par-img></div>
+        <figcaption>Nano Store · Joinville</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- A NANO -->
+  <section class="about" id="a-nano">
+    <div class="wrap about-grid">
+      <div class="about-copy">
+        <p class="eyebrow rv" style="color:var(--text-on-light)">A Nano</p>
+        <h2 class="rv" style="margin-top:14px" data-t="aboutTitle">Mais do que <b>tecnologia.</b></h2>
+        <p class="body rv" data-t="aboutBody">Na Nano, você encontra iPhones, acessórios e atendimento para escolher com tranquilidade, em uma loja pensada para receber bem.</p>
+        <ul class="pil rv">
+          <li><b>Atendimento próximo</b><span>Fale direto com a equipe, antes e depois da compra.</span></li>
+          <li><b>Experiência de compra</b><span>Um espaço para conhecer os produtos com calma.</span></li>
+          <li><b>Tecnologia</b><span>iPhones e acessórios para o seu dia a dia.</span></li>
+        </ul>
+        <!-- Para destacar números reais (anos de loja, clientes etc.), preencha ABOUT_FACTS em config/store.js -->
+        <div class="facts rv" id="facts" hidden></div>
+      </div>
+      <figure class="about-fig rv" style="--d:.1s">
+        <div class="frame-in"><img src="assets/desk-900.webp" srcset="assets/desk-560.webp 560w, assets/desk-900.webp 900w" sizes="(min-width:900px) 480px, 88vw" width="900" height="1125" alt="Balcão de atendimento da Nano Store em madeira clara, com computadores e poltronas cinza" loading="lazy" decoding="async"></div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="ig" id="instagram">
+    <div class="giant" style="width:min(110vw,700px);left:-30%;top:-18%;opacity:.06" data-par="0.05" aria-hidden="true"><svg viewBox="0 0 85 61"><use href="#s-sym"/></svg></div>
+    <div class="wrap ig-grid">
+      <div class="rv">
+        <p class="eyebrow">Instagram</p>
+        <h2 style="margin-top:14px" data-t="igTitle">Veja a Nano <b>no Instagram.</b></h2>
+        <a class="ig-handle" data-ig-handle href="https://www.instagram.com/nano.store.jlle/" target="_blank" rel="noopener">@nano.store.jlle</a>
+        <a class="btn btn-w" data-ig href="https://www.instagram.com/nano.store.jlle/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg>Ver Instagram</a>
+      </div>
+      <!-- Fotos: enquanto o feed automático não for conectado (igFeedUrl em config/store.js), mostramos 3 detalhes reais da loja. -->
+      <div class="ig-tiles" id="ig-tiles">
+        <a class="tile rv" data-ig href="https://www.instagram.com/nano.store.jlle/" target="_blank" rel="noopener" aria-label="Abrir o Instagram da Nano Store"><img src="assets/ig-1.webp" width="345" height="500" alt="Parede de capinhas coloridas e iPhones na vitrine da Nano Store" loading="lazy" decoding="async"></a>
+        <a class="tile rv" data-ig style="--d:.1s" href="https://www.instagram.com/nano.store.jlle/" target="_blank" rel="noopener" aria-label="Abrir o Instagram da Nano Store"><img src="assets/ig-2.webp" width="560" height="810" alt="Recepção da Nano Store com sofá e a frase Think Different na parede" loading="lazy" decoding="async"></a>
+        <a class="tile rv" data-ig style="--d:.2s" href="https://www.instagram.com/nano.store.jlle/" target="_blank" rel="noopener" aria-label="Abrir o Instagram da Nano Store"><img src="assets/ig-3.webp" width="650" height="770" alt="Balcão de atendimento da Nano Store com iMac e poltronas" loading="lazy" decoding="async"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCALIZAÇÃO -->
+  <section class="loc on-light" id="localizacao">
+    <div class="wrap loc-grid">
+      <div class="rv">
+        <p class="eyebrow">Loja física</p>
+        <h2>Nano Store</h2>
+        <p class="city">Joinville — SC</p>
+        <p class="addr"><small>Endereço</small><span id="addr">Alameda Rolf Colin, 138<br>América, Joinville — SC<br>CEP 89204-070</span></p>
+        <a class="btn btn-k" id="directions" href="https://www.google.com/maps/search/?api=1&query=Nano%20Store%20Alameda%20Rolf%20Colin%2C%20138%20Am%C3%A9rica%20Joinville%20SC" target="_blank" rel="noopener">Como chegar</a>
+      </div>
+      <div class="loc-box rv" style="--d:.12s" aria-hidden="true">
+        <div class="pat-wrap" data-rv-pat><div class="pat"></div></div>
+        <svg class="sym" viewBox="0 0 85 61"><use href="#s-sym"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final" id="contato">
+    <div class="pat-wrap" data-rv-pat aria-hidden="true"><div class="pat"></div></div>
+    <div class="wrap">
+      <p class="eyebrow rv">Contato</p>
+      <h2 class="rv" data-t="finalTitle">Seu próximo <b>upgrade</b> está a um clique.</h2>
+      <div class="ctas rv" style="--d:.1s">
+        <a class="btn btn-w" data-wa href="https://wa.me/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.8c.2 3 2.6 5.6 5.9 6.2l1.2-1.4-2.1-1-.9.7a4.6 4.6 0 0 1-2-2l.7-.9-1-2.1L9 8.8z"/></svg>Falar com a Nano</a>
+        <a class="btn btn-o" data-ig href="https://www.instagram.com/nano.store.jlle/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg>Instagram</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="pat-wrap" data-rv-pat aria-hidden="true"><div class="pat"></div></div>
+  <div class="wrap foot">
+    <a class="logo" href="#inicio" aria-label="Nano Store — voltar ao topo"><svg viewBox="0 0 423 353" role="img" aria-label="Nano Store"><use href="#s-logo"/></svg></a>
+    <nav aria-label="Rodapé">
+      <a data-ig href="https://www.instagram.com/nano.store.jlle/" target="_blank" rel="noopener">Instagram</a>
+      <a data-wa href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+    <small>© <span id="yr">2026</span> Nano Store · Joinville — SC</small>
+    <address class="foot-addr">Alameda Rolf Colin, 138 — América, Joinville — SC, CEP 89204-070</address>
+    <a class="credit" href="https://igorcabral.dev.br" target="_blank" rel="noopener" aria-label="Desenvolvido por Igor Cabral, design e web"><span>Desenvolvido por</span><img src="assets/igor-white.webp" width="480" height="121" alt="Igor Cabral — design &amp; web" loading="lazy" decoding="async"></a>
+  </div>
+</footer>
+
+<a class="fab" id="fab" data-wa href="https://wa.me/" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.8c.2 3 2.6 5.6 5.9 6.2l1.2-1.4-2.1-1-.9.7a4.6 4.6 0 0 1-2-2l.7-.9-1-2.1L9 8.8z"/></svg><span>WhatsApp</span></a>
+
+<script src="config/store.js"></script>
+<script>
+(function(){
+  var S = window.STORE || {};
+  var de = document.documentElement; de.classList.add("js");
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // ---- Links centralizados (WhatsApp, Instagram, Maps) ----
+  var digits = String(S.whatsappNumber || "").replace(/\D/g, "");
+  function wa(msg){ return "https://wa.me/" + digits + "?text=" + encodeURIComponent(msg || S.whatsappMessage || ""); }
+  var igUrl = "https://www.instagram.com/" + (S.instagram || "nano.store.jlle") + "/";
+  document.querySelectorAll("[data-wa]").forEach(function(a){ a.href = wa(a.getAttribute("data-msg")); });
+  document.querySelectorAll("[data-ig]").forEach(function(a){ a.href = igUrl; });
+  var h = document.querySelector("[data-ig-handle]"); if (h) { h.href = igUrl; h.textContent = "@" + (S.instagram || "nano.store.jlle"); }
+  var mapsHref = S.mapsUrl || (S.address ? "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent((S.name || "Nano Store") + " " + S.address) : "");
+  if (mapsHref) { var d = document.getElementById("directions"); d.href = mapsHref; }
+  if (S.address) { var ad = document.getElementById("addr"); ad.textContent = S.address; }
+  var yr = document.getElementById("yr"); if (yr) yr.textContent = new Date().getFullYear();
+
+  // ---- Textos editáveis ----
+  var T = S.texts || {};
+  document.querySelectorAll("[data-t]").forEach(function(el){ var k = el.getAttribute("data-t"); if (T[k]) el.innerHTML = T[k]; });
+
+  // ---- Fotos reais opcionais (categorias, Instagram, fatos) ----
+  (S.categories || []).forEach(function(c, i){
+    var el = document.querySelector('[data-cat="' + i + '"]'); if (!el || !c || !c.image) return;
+    var box = document.createElement("div"); box.className = "cat-img";
+    var im = new Image(); im.src = c.image; im.alt = c.alt || ""; im.loading = "lazy"; box.appendChild(im);
+    el.insertBefore(box, el.firstChild);
+    var ph = el.querySelector("[data-ph]"); if (ph) ph.remove();
+    var g = el.querySelector(".giant"); if (g) g.remove();
+  });
+  // ---- Instagram: feed automático (ex.: Behold, SnapWidget JSON ou qualquer endpoint com a lista de posts) ----
+  function renderFeed(posts){
+    var box = document.getElementById("ig-tiles"), n = Math.min(posts.length, S.igFeedLimit || 6); if (!n) return;
+    box.innerHTML = "";
+    posts.slice(0, n).forEach(function(p, i){
+      var src = (p.sizes && p.sizes.medium && p.sizes.medium.mediaUrl) || p.thumbnailUrl || p.mediaUrl || p.image || "";
+      if (!src) return;
+      var a = document.createElement("a"); a.className = "tile in"; a.href = p.permalink || igUrl; a.target = "_blank"; a.rel = "noopener";
+      a.setAttribute("aria-label", "Ver publicação no Instagram da Nano Store");
+      var im = new Image(); im.src = src; im.alt = (p.caption || p.prunedCaption || "Publicação do Instagram da Nano Store").slice(0, 120); im.loading = "lazy"; im.decoding = "async";
+      a.appendChild(im); box.appendChild(a);
+    });
+  }
+  if (S.igFeedUrl && window.fetch) {
+    fetch(S.igFeedUrl).then(function(r){ return r.ok ? r.json() : Promise.reject(); })
+      .then(function(j){ renderFeed(Array.isArray(j) ? j : (j.posts || j.data || [])); }).catch(function(){});
+  } else if (S.igTiles && S.igTiles.length) {
+    renderFeed(S.igTiles.map(function(u){ return { mediaUrl: u }; }));
+  }
+  if (S.aboutFacts && S.aboutFacts.length) {
+    var f = document.getElementById("facts"); f.hidden = false;
+    f.innerHTML = S.aboutFacts.map(function(x){ return "<div><b>" + x.value + "</b><span>" + x.label + "</span></div>"; }).join("");
+  }
+
+  // ---- Header, menu, botão flutuante ----
+  var hdr = document.getElementById("hdr"), fab = document.getElementById("fab"), hero = document.getElementById("inicio");
+  var mb = document.getElementById("menu-btn"), menu = document.getElementById("menu");
+  function setMenu(o){ mb.setAttribute("aria-expanded", o); mb.setAttribute("aria-label", o ? "Fechar menu" : "Abrir menu"); menu.classList.toggle("open", o); menu.setAttribute("aria-hidden", !o); document.body.style.overflow = o ? "hidden" : ""; hdr.classList.toggle("solid", o || window.scrollY > 40); }
+  mb.addEventListener("click", function(){ setMenu(mb.getAttribute("aria-expanded") !== "true"); });
+  menu.querySelectorAll("a").forEach(function(a){ a.addEventListener("click", function(){ setMenu(false); }); });
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape") setMenu(false); });
+
+  // ---- Padronagem: aparição progressiva ----
+  var pats = document.querySelectorAll(".pat-wrap");
+  document.querySelectorAll("[data-now]").forEach(function(p){ requestAnimationFrame(function(){ p.classList.add("in"); }); });
+  var all = document.querySelectorAll(".rv, [data-rv-pat]");
+  if (reduce || !("IntersectionObserver" in window)) { all.forEach(function(e){ e.classList.add("in"); }); }
+  else {
+    // A padronagem usa clip-path; observamos o elemento pai para o observer enxergar a área.
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){
+      if (!e.isIntersecting) return;
+      var t = e.target; if (t.classList.contains("rv")) t.classList.add("in"); (t.__pat || []).forEach(function(n){ n.classList.add("in"); });
+      io.unobserve(t);
+    }); }, {rootMargin:"0px 0px -8% 0px", threshold:.08});
+    all.forEach(function(e){
+      if (e.hasAttribute("data-rv-pat")) { var p = e.parentNode; (p.__pat = p.__pat || []).push(e); io.observe(p); }
+      else io.observe(e);
+    });
+  }
+
+  // ---- Parallax discreto + faixa em movimento ----
+  var par = document.querySelectorAll("[data-par]"), bandPat = document.getElementById("band-pat"), band = bandPat.parentNode.parentNode;
+  var parImg = document.querySelector("[data-par-img]");
+  var tick = false;
+  function onScroll(){
+    var y = window.scrollY, vh = window.innerHeight;
+    hdr.classList.toggle("solid", y > 40);
+    fab.classList.toggle("show", y > hero.offsetHeight * .6);
+    if (!reduce) {
+      par.forEach(function(el){
+        var r = el.getBoundingClientRect(); if (r.bottom < -200 || r.top > vh + 200) return;
+        var p = r.top + r.height / 2 - vh / 2; el.style.transform = "translate3d(0," + (p * parseFloat(el.dataset.par)).toFixed(1) + "px,0)";
+      });
+      var br = band.getBoundingClientRect();
+      if (br.bottom > 0 && br.top < vh) bandPat.style.setProperty("--dx", (br.top * -0.35).toFixed(1) + "px");
+      if (parImg) { var pr = parImg.parentNode.getBoundingClientRect(); if (pr.bottom > 0 && pr.top < vh) { var q = (pr.top + pr.height/2 - vh/2) * -0.05; parImg.style.transform = "translate3d(0," + q.toFixed(1) + "px,0) scale(1.08)"; } }
+    }
+    tick = false;
+  }
+  window.addEventListener("scroll", function(){ if (!tick) { tick = true; requestAnimationFrame(onScroll); } }, {passive:true});
+  window.addEventListener("resize", onScroll);
+  onScroll();
+})();
+</script>
+</body>
+</html>
